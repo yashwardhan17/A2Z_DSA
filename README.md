@@ -26,16 +26,16 @@ This repository contains **topic-wise notes, explanations, and solutions** to he
 - [x] Union of Two Arrays
 - [x] Move Zeroes to End
 - [x] Prefix Sum Problems
-- [ ] Kadane’s Algorithm (Maximum Subarray)
+- [x] Kadane’s Algorithm (Maximum Subarray)
 
 ---
 
 ### **2. Strings**
 - [x] Introduction to Strings in Java
 - [x] Palindrome Check
-- [ ] Reverse Words in a String
-- [ ] Longest Substring Without Repeating Characters
-- [ ] Anagram Problems
+- [x] Reverse Words in a String
+- [x] Longest Substring Without Repeating Characters
+- [x] Anagram Problems
 
 ---
 
@@ -62,7 +62,7 @@ This repository contains **topic-wise notes, explanations, and solutions** to he
 ### **5. Hashing**
 - [x] HashMap Basics
 - [x] Two Sum Problem
-- [ ] Subarray Sum Equals K
+- [x] Subarray Sum Equals K
 - [ ] Longest Consecutive Sequence
 
 ---
