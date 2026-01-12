@@ -4,7 +4,8 @@ public class SetMatrixZeroes {
     public static void main(String[] args) {
         int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
 
-        setZeroes(matrix);
+        // setZeroes(matrix);
+        setZeroesOptimal(matrix);
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
@@ -41,6 +42,8 @@ public class SetMatrixZeroes {
         }
     }
 
+    // Time Complexity : 2 * O(rows * cols)
+    // Space Complexity : O(1)
     static void setZeroesOptimal(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
@@ -69,9 +72,25 @@ public class SetMatrixZeroes {
 
         for (int i = 1; i < rows; i++) {
             for (int j = 1; j < cols; j++) {
-
+                if (matrix[i][j] != 0) {
+                    // check for row and col
+                    if (matrix[i][0] == 0 || matrix[0][j] == 0) {
+                        matrix[i][j] = 0;
+                    }
+                }
             }
         }
 
+        if (matrix[0][0] == 0) {
+            for (int j = 0; j < cols; j++) {
+                matrix[0][j] = 0;
+            }
+        }
+
+        if (col0 == 0) {
+            for (int i = 0; i < rows; i++) {
+                matrix[i][0] = 0;
+            }
+        }
     }
 }
