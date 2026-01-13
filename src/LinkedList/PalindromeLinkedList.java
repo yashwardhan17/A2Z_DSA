@@ -10,7 +10,7 @@ public class PalindromeLinkedList {
         head.next.next = new ListNode(2);
         head.next.next.next = new ListNode(1);
 
-        System.out.println(isPalindrome(head));
+        System.out.println(isPalindrome1(head));
     }
 
     static class ListNode {
@@ -79,5 +79,35 @@ public class PalindromeLinkedList {
             curr = nextNode;
         }
         return prev;
+    }
+
+    static boolean isPalindrome1(ListNode head) {
+        if (head == null || head.next == null) return true;
+
+        ListNode mid = middleNode(head);
+        ListNode secondHead = reverseList(mid);
+        ListNode reversedHead = secondHead;
+
+        while (head != null && secondHead != null) {
+            if (head.val != secondHead.val) {
+                break;
+            }
+            head = head.next;
+            secondHead = secondHead.next;
+        }
+        reverseList(reversedHead);
+
+        return head == null || secondHead == null;
+    }
+
+    static ListNode middleNode(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
     }
 }
