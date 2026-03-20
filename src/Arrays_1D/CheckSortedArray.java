@@ -1,4 +1,4 @@
-package Arrays_1D;
+package arrays_1d;
 
 public class CheckSortedArray {
     public static void main(String[] args) {
@@ -17,5 +17,20 @@ public class CheckSortedArray {
             }
         }
         return flag;
+    }
+
+    static boolean checkSortedAndRotated (int[] arr, int n) {
+        int cnt = 0;
+        for (int i = 0; i < n - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                cnt++;
+            }
+        }
+
+        if (arr[n-1] > arr[0]) {
+            cnt++;
+        }
+
+        return cnt <= 1;
     }
 }

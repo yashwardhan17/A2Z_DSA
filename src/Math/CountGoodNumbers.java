@@ -1,4 +1,4 @@
-package Math;
+package math;
 
 public class CountGoodNumbers {
     public static void main(String[] args) {

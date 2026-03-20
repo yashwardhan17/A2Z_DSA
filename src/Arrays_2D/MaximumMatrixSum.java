@@ -1,4 +1,4 @@
-package Arrays_2D;
+package arrays_2d;
 
 public class MaximumMatrixSum {
     public static void main(String[] args) {

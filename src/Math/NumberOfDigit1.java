@@ -1,4 +1,4 @@
-package Math;
+package math;
 
 public class NumberOfDigit1 {
     public static void main(String[] args) {

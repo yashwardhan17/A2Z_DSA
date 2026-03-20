@@ -30,8 +30,8 @@ This repository contains **topic-wise notes, explanations, and solutions** to he
 
 ---
 
-### **2. Strings**
-- [x] Introduction to Strings in Java
+### **2. strings**
+- [x] Introduction to strings in Java
 - [x] Palindrome Check
 - [x] Reverse Words in a String
 - [x] Longest Substring Without Repeating Characters
@@ -39,8 +39,8 @@ This repository contains **topic-wise notes, explanations, and solutions** to he
 
 ---
 
-### **3. Recursion**
-- [x] Basics of Recursion
+### **3. recursion**
+- [x] Basics of recursion
 - [ ] Factorial, Fibonacci
 - [ ] Subset Generation
 - [ ] Permutations
@@ -48,7 +48,7 @@ This repository contains **topic-wise notes, explanations, and solutions** to he
 
 ---
 
-### **4. Sorting & Searching**
+### **4. sorting & Searching**
 - [x] Selection Sort
 - [x] Bubble Sort
 - [x] Insertion Sort

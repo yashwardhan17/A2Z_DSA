@@ -1,4 +1,4 @@
-package PrefixSum;
+package prefixsum;
 
 public class MaximumScoreOfASplit {
     public static void main(String[] args) {

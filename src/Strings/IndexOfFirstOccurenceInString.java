@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 public class IndexOfFirstOccurenceInString {
     public static void main(String[] args) {

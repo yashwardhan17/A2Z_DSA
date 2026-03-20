@@ -1,4 +1,4 @@
-package Arrays_1D;
+package arrays_1d;
 
 public class MissingNo {
     public static void main(String[] args) {

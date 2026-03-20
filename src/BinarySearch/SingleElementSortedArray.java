@@ -1,4 +1,4 @@
-package BinarySearch;
+package binarysearch;
 
 public class SingleElementSortedArray {
     public static void main(String[] args) {

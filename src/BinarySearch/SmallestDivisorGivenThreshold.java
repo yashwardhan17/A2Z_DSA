@@ -1,4 +1,4 @@
-package BinarySearch;
+package binarysearch;
 
 public class SmallestDivisorGivenThreshold {
     public static void main(String[] args) {

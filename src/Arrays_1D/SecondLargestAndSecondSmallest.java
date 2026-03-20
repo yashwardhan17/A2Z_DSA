@@ -1,4 +1,4 @@
-package Arrays_1D;
+package arrays_1d;
 
 public class SecondLargestAndSecondSmallest {
     public static void main(String[] args) {

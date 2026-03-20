@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlist;
 
 public class SortList {
     public static void main(String[] args) {

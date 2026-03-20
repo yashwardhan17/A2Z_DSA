@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 public class MaxNestingDepthInParenthesis {
     public static void main(String[] args) {

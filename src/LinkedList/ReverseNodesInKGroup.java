@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlist;
 
 public class ReverseNodesInKGroup {
     public static void main(String[] args) {

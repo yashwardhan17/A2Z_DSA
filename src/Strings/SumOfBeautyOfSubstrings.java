@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 public class SumOfBeautyOfSubstrings {
     public static void main(String[] args) {

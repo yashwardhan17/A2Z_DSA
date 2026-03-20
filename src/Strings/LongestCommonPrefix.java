@@ -1,6 +1,4 @@
-package Strings;
-
-import java.util.Arrays;
+package strings;
 
 public class LongestCommonPrefix {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package BinarySearch;
-
-import java.util.Arrays;
+package binarysearch;
 
 public class CapacityToShipPackagesWithinDDays {
     public static void main(String[] args) {
