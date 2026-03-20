@@ -41,9 +41,9 @@ This repository contains **topic-wise notes, explanations, and solutions** to he
 
 ### **3. recursion**
 - [x] Basics of recursion
-- [ ] Factorial, Fibonacci
-- [ ] Subset Generation
-- [ ] Permutations
+- [x] Factorial, Fibonacci
+- [x] Subset Generation
+- [x] Permutations
 - [ ] N-Queens Problem
 
 ---
@@ -68,10 +68,10 @@ This repository contains **topic-wise notes, explanations, and solutions** to he
 ---
 
 ### **6. Linked List**
-- [ ] Singly Linked List Basics
-- [ ] Reverse a Linked List
-- [ ] Detect Cycle (Floyd’s Algorithm)
-- [ ] Merge Two Sorted Lists
+- [x] Singly Linked List Basics
+- [x] Reverse a Linked List
+- [x] Detect Cycle (Floyd’s Algorithm)
+- [x] Merge Two Sorted Lists
 
 ---
 
